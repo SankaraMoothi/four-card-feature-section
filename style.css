@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  font-family: "Poppins", sans-serif;
+}
+.card {
+  width: 320px;
+  height: 180px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 550px;
+  margin: 20px auto 40px auto;
+  text-align: center;
+}
+.header h1 {
+  font-weight: 200;
+  margin-bottom: 3px;
+  color: rgb(117, 118, 119);
+}
+.header .title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: rgb(59, 49, 49);
+}
+.header p {
+  font-size: 15px;
+  font-weight: 200;
+  color: rgb(160, 163, 165);
+}
+.card p {
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: rgb(160, 163, 165);
+}
+.search {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-right: 30px;
+}
+.team {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 30px;
+}
+.karma {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+.calculator {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  margin-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header {
+    width: 85%;
+  }
+  .header h1 {
+    font-size: 25px;
+  }
+  .header p {
+    font-size: 18px;
+  }
+  .card {
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+  }
+}
